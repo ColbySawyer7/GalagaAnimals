@@ -15,10 +15,10 @@ GameObject:
   - component: {fileID: 1415792959900336857}
   - component: {fileID: 1979058296026660399}
   - component: {fileID: 4120081360632569877}
-  - component: {fileID: 8878468130287542396}
+  - component: {fileID: 2170182708293569354}
   m_Layer: 0
   m_Name: Food_Banana_01
-  m_TagString: food
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,13 +30,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8900282238537994193}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 3.13}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &8932947797495398347
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -93,10 +93,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8900282238537994193}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd10676b5721bd949a3015c88f17d83e, type: 3}
+  m_Script: {fileID: 11500000, guid: 7369029dc038d274fbee5a6ed9126f06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
 --- !u!114 &1415792959900336857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,9 +105,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8900282238537994193}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5c3604beafa13d4b863ad31de4af8ef, type: 3}
+  m_Script: {fileID: 11500000, guid: 391fde7314899c44399cec5e28b6d19e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 20
 --- !u!65 &1979058296026660399
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -138,7 +138,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8878468130287542396
+--- !u!114 &2170182708293569354
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,6 +147,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8900282238537994193}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86dbfef0a464d0b46892cbf4ab6d02f0, type: 3}
+  m_Script: {fileID: 11500000, guid: e91804c2c444f0e4e9b71c57f25b3f8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

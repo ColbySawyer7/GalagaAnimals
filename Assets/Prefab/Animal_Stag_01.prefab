@@ -751,10 +751,10 @@ GameObject:
   - component: {fileID: 6334237612727071221}
   - component: {fileID: 6334237612727071218}
   - component: {fileID: -5725412776431482833}
-  - component: {fileID: 8730530415032980025}
+  - component: {fileID: 5624648981999968383}
   m_Layer: 0
   m_Name: Animal_Stag_01
-  m_TagString: animal
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -811,10 +811,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6334237611557558593}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd10676b5721bd949a3015c88f17d83e, type: 3}
+  m_Script: {fileID: 11500000, guid: 7369029dc038d274fbee5a6ed9126f06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
 --- !u!114 &6334237612727071218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -824,9 +823,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6334237611557558593}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5c3604beafa13d4b863ad31de4af8ef, type: 3}
+  m_Script: {fileID: 11500000, guid: 391fde7314899c44399cec5e28b6d19e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 20
 --- !u!65 &-5725412776431482833
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -840,7 +840,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.11523056, y: 0.46049112, z: 0.39485395}
   m_Center: {x: 0.0028139462, y: 0.22363433, z: 0.053706776}
---- !u!114 &8730530415032980025
+--- !u!114 &5624648981999968383
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -849,7 +849,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6334237611557558593}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86dbfef0a464d0b46892cbf4ab6d02f0, type: 3}
+  m_Script: {fileID: 11500000, guid: e91804c2c444f0e4e9b71c57f25b3f8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6334237611557576911
