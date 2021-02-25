@@ -37,9 +37,9 @@ public class PlayerController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
 
         if(transform.position.x < -xRange){
-            transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
-        } else if(transform.position.x > xRange){
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
+        } else if(transform.position.x > xRange){
+            transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
         }
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
 
@@ -53,6 +53,7 @@ public class PlayerController : MonoBehaviour
                 Debug.Log("Health: " + health);
             } else{
                 health = 0;
+                Debug.Log("Health: " + health);
             }
             
         } else if(other.tag == "food"){
