@@ -483,11 +483,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 744c4e70213012a448c6a724b08d59bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalPrefabs:
+  prefabs:
   - {fileID: 2236878328855630040, guid: de2627e7910df8340ab785c704a2e478, type: 3}
   - {fileID: 2128050789190914618, guid: b802fce4728b09e4fb6fc6c3ff020e4c, type: 3}
   - {fileID: 6334237611557558593, guid: bba14b9670aef384eac260ee4cde1b1c, type: 3}
   - {fileID: 8900282238537994193, guid: 7ccd0f76e66552048a85c6af13e3c8ba, type: 3}
+  - {fileID: 2494219334689327415, guid: 138117392f08e01498775385d0eb69d7, type: 3}
+  - {fileID: 27291451630875703, guid: eccffae2b6758454395cfef9a90ca768, type: 3}
+  - {fileID: 2236878328855630040, guid: de2627e7910df8340ab785c704a2e478, type: 3}
+  - {fileID: 2128050789190914618, guid: b802fce4728b09e4fb6fc6c3ff020e4c, type: 3}
+  - {fileID: 6334237611557558593, guid: bba14b9670aef384eac260ee4cde1b1c, type: 3}
+  - {fileID: 2236878328855630040, guid: de2627e7910df8340ab785c704a2e478, type: 3}
 --- !u!4 &602895348
 Transform:
   m_ObjectHideFlags: 0
@@ -689,7 +695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0778f725c52bc2d478b414107fb234ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 25
   xRange: 20
   scoreIncrease: 100
   health: 100
