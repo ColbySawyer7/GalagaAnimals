@@ -16,9 +16,10 @@ GameObject:
   - component: {fileID: 1979058296026660399}
   - component: {fileID: 4120081360632569877}
   - component: {fileID: 8878468130287542396}
+  - component: {fileID: 8079164923527322877}
   m_Layer: 0
   m_Name: Food_Banana_01
-  m_TagString: Untagged
+  m_TagString: food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -150,3 +151,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86dbfef0a464d0b46892cbf4ab6d02f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8079164923527322877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8900282238537994193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a758ed33c07b5af43b2762f6c9320e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalPrefabs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
