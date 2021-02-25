@@ -15,6 +15,11 @@ public class PlayerController : MonoBehaviour
     private float startDelay = 2;
     private float scoreInterval = 1.0f;
 
+    //Health Tracking
+    public float health = 100;
+    public float foodHealth = 10;
+    public float animalDamage = 25;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +29,12 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+         if(health <= 0){
+            //END GAME CONDTIONS
+            Debug.Log("GAME OVER!!  Final Score:" + score);
+            Destroy(gameObject);
+        }
+        
         horizontalInput = Input.GetAxis("Horizontal");
 
         if(transform.position.x < -xRange){
@@ -37,6 +48,20 @@ public class PlayerController : MonoBehaviour
             //Launch projective from the player
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
+        
+        
+    }
+    private void OnTriggerEnter(Collider other){
+        Debug.Log(other.tag);
+        if(other.tag == "animal"){
+            health = health - animalDamage;
+            Debug.Log("Health: " + health);
+        } else if(other.tag == "food"){
+            if(!(health >= 100)){
+                health = health + foodHealth;
+                Debug.Log("Health: " + health);
+            } 
+        }    
     }
 
     void CountScore(){
